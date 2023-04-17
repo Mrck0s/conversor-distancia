@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+body{
+  background-color: #15157c;
+  font-family: 'Dongle', sans-serif;
+  color: #d0d0d0;
+}
+.app-container{
+  display: flex;
+  background-color: #2b2bc0;
+  width: 50%;
+  height: 60vh;
+  margin: 5% auto;
+  flex-direction: column;
+}
+.app-titulo{
+  display: inline-block;
+  font-size: 50px;
+  margin: 5% auto;
+  font-style: italic;
+  text-decoration: underline 2px wavy;
+}
+.inputs-container{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  font-size: 38px;
+}
+.select-container{
+  display: flex;
+  margin: 4% auto;
+}
+.span{
+  margin: auto 0;
+}
+.num-pedido{
+  display: inline-block;
+  margin-left: 1rem;
+  width: 30%;
+  padding: 0.6rem;
+  background-color: #15157c;
+  color: #d0d0d0;
+  text-align: center;
+  font-size: 20px;
+}
+.unidad2{
+  margin-left: 1rem;
+}
+.select{
+  padding: 0.6rem;
+  background-color: #15157c;
+  color: #d0d0d0;
+  font-size: 20px;
+}
+.option{
+  background-color: #0d0d5a;
+  
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo{
+  width: 10%;
+  margin-bottom: 2%;
+}
+.footer-text{
+  font-size: 20px;
+}
+
+/*Clases genericas*/
+.border{
+  border: none;
+  outline: none;
+}

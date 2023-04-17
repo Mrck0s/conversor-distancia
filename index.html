@@ -8,36 +8,41 @@
   <link rel="icon" href="/src/favicon.png">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
   <script src="/js/script.js" defer></script>
 </head>
 <body>
   <main class="main">
     <div class="app-container">
       <h2 class="app-titulo">Conversor de Unidades de Distancia</h2>
-      <div class="inputs">
-        <p class="convertir-text">Convertir: <input type="number" class="num-pedido"> 
-          <select class="unidad1" name="unidad1">
-            <option value="kilometro">Kilómetro</option>
-            <option value="metro">Metro</option>
-            <option value="centimetro">Centímetro</option>
-            <option value="milla">Milla</option>
-            <option value="pie">Pie</option>
-            <option value="pulgada">Pulgada</option>
+      <div class="inputs-container">
+        <div class="select-container">
+          <span class="convertir-text span">Convertir: </span>
+          <input type="number" class="num-pedido border"> 
+          <select class="unidad2 select border" name="unidad2">
+            <option class="option" value="kilometro">Kilómetro</option>
+            <option class="option" value="metro">Metro</option>
+            <option class="option" value="centimetro">Centímetro</option>
+            <option class="option" value="milla">Milla</option>
+            <option class="option" value="pie">Pie</option>
+            <option class="option" value="pulgada">Pulgada</option>
           </select>
-          a:
-          <select class="unidad1" name="unidad1">
-            <option value="kilometro">Kilómetro</option>
-            <option value="metro">Metro</option>
-            <option value="centimetro">Centímetro</option>
-            <option value="milla">Milla</option>
-            <option value="pie">Pie</option>
-            <option value="pulgada">Pulgada</option>
-          </select> 
-        </p>
+        </div>
+        <div class="select-container">
+          <span class="select-text span">A: </span>
+          <select class="unidad2 select border" name="unidad2">
+            <option class="option" value="kilometro">Kilómetro</option>
+            <option class="option" value="metro">Metro</option>
+            <option class="option" value="centimetro">Centímetro</option>
+            <option class="option" value="milla">Milla</option>
+            <option class="option" value="pie">Pie</option>
+            <option class="option" value="pulgada">Pulgada</option>
+          </select>
+        </div>
       </div>
-      <div class="resultado-container">
-
-      </div>
+      <!-- <div class="resultado-container">
+        a2
+      </div> -->
     </div>
   </main>
   <footer class="footer">
