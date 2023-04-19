@@ -85,8 +85,7 @@ body{
   background: linear-gradient(45deg, #0d0d5a, #2d2da5);
   font-size: 20px;
   color: #d0d0d0;
-  border-radius: 0.5em;
-
+  border-radius: 0.5em; 
 }
 .footer{
   display: flex;

@@ -75,7 +75,6 @@ calcularBtn.addEventListener("click", () => {
     text: `${valor} ${unidadInicial} son ${resultado.toFixed(2)} ${unidadFinal}${singular ? "" : "s"}.`,
     icon: "success",
     confirmButtonText: "OK",
-    customClass: "alert"
+    customClass: "alert",
   });
-  
 });
