@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+html{
+  height: 100vh;
+}
 body{
-  background-color: #15157c;
+  background:linear-gradient(225deg, rgb(63, 63, 241) 0%, rgb(150, 45, 200) 100%);
   font-family: 'Dongle', sans-serif;
   color: #d0d0d0;
 }
 .app-container{
   display: flex;
-  background-color: #2b2bc0;
+  background:linear-gradient(45deg, rgb(63, 63, 241) 0%, rgb(150, 45, 200) 100%);
   width: 50%;
   height: 60vh;
   margin: 5% auto;
   flex-direction: column;
 }
 .app-titulo{
-  display: inline-block;
+  text-align: center;
   font-size: 50px;
-  margin: 5% auto;
+  width: 100%;
+  padding: 5% 0;
   font-style: italic;
   text-decoration: underline 2px wavy;
 }
 .inputs-container{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
   margin: auto;
   font-size: 38px;
 }
@@ -35,7 +39,7 @@ body{
 }
 .num-pedido{
   display: inline-block;
-  margin-left: 1rem;
+  margin: 0 1rem;
   width: 30%;
   padding: 0.6rem;
   background-color: #15157c;
@@ -56,7 +60,35 @@ body{
   background-color: #0d0d5a;
   
 }
-footer{
+.calcular-container{
+  width: 100%;
+  height: 20%;
+}
+.calcular-btn{
+  display: flex;
+  margin: auto;
+  padding: 2%;
+  background-color: #d0d0d0;
+  color: #0d0d5a;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.calcular-btn:hover{
+  background-color: #0d0d5a;
+  color: #d0d0d0;
+  transform: scale(1.2);
+  border-radius: 0.5em;
+  font-style: italic;
+}
+.alert{
+  background: linear-gradient(45deg, #0d0d5a, #2d2da5);
+  font-size: 20px;
+  color: #d0d0d0;
+  border-radius: 0.5em;
+
+}
+.footer{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,4 +105,5 @@ footer{
 .border{
   border: none;
   outline: none;
+  border-radius: 0.5em;
 }
