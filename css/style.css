@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 html{
   height: 100vh;
+  width: 100vw;
 }
 body{
   background:linear-gradient(225deg, rgb(63, 63, 241) 0%, rgb(150, 45, 200) 100%);

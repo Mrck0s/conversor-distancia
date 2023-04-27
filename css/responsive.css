@@ -1,0 +1,27 @@
+@media (max-width: 820px) {
+  .app-container{
+    background: none;
+    height: 70vh;
+    width: 70%;
+  }
+}
+@media (max-width:420px) {
+  .app-container{
+    width: 90%;
+  }
+  .app-titulo{
+    font-size: 30px;
+    padding: 0;
+  }
+  .num-pedido{
+    padding: 0;
+    font-size: 16px;
+  }
+  .select{
+    padding: 0;
+    font-size: 16px;
+  }
+  .span{
+    font-size: 26px;
+  }
+}
